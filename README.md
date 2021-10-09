@@ -7,7 +7,7 @@ Aqui estará todas as implementações solicitadas.
 
 ### Discentes
 
-- Taynara Silva, 21751227
+- Taynara Silva da Costa, 21751227
 
 ### Resolução
 **Questão 1**-
