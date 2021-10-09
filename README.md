@@ -84,7 +84,7 @@ implementado no microprocessador, e este possui unidades de hardware que são ci
 #include <stdlib.h>
 
 int main(){
-	int a; // variavel de entrada
+    int a; // variavel de entrada
     int b; // variavel de entrada
     int x; // variavel de saída
 	
