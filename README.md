@@ -5,7 +5,7 @@ Repositório destinado a disciplina Sistemas Embarcados, ministrado pelo **Prof.
 Aqui estará todas as implementações solicitadas.
 
 
-### Discentes
+### Discente
 
 - Taynara Silva da Costa, 21751227
 
