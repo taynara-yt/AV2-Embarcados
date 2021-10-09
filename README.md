@@ -10,7 +10,7 @@ Aqui estará todas as implementações solicitadas.
 - Taynara Silva da Costa, 21751227
 
 ### Resolução
-**Questão 1**-
+**Questão 1** -
 Construa um circuito com portas lógicas que permitam modificar as saídas quando processadas.
 O circuito deverá receber como entrada um registrador A e B e a resposta deverá ser armazenada em X. 
 A Saída deverá inverter o resultado do processamento. Após a construção do circuito, codifique-o usando VHDL.
@@ -34,7 +34,7 @@ end questao;
 }
 ~~~
 
-**Questão 2**-
+**Questão 2** -
 Codifique o circuito desenvolvido na questão 1 em linguagem de programação Rust.
 
 ~~~rust
@@ -70,7 +70,7 @@ fn main(){
 }
 ~~~
 
-**Questão 4**-
+**Questão 4** -
 Com base na Figura acima explique o processo de implementação Hardware/Software 
 ~~~txt
 A figura representa a forma para o processo de implementação Hardware/Software, onde o código é
@@ -78,6 +78,48 @@ implementado no microprocessador, e este possui unidades de hardware que são ci
 
 ~~~
 
+**Questão 5** - Codifique o circuito desenvolvido na questão 1 em linguagem de programação C.
+~~~c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	int a; // variavel de entrada
+    int b; // variavel de entrada
+    int x; // variavel de saída
+	
+	
+     // x<=not(not (a and b));
+	a = 0;
+	b = 0;
+	x = !(!(a && b));  
+    printf("\n %d<=not(not %d and %d))", x,a,b);
+	
+
+     // x<=not(not (a and b));
+	a = 0;
+	b = 1;
+	x = !(!(a && b));
+    printf("\n %d<=not(not %d and %d))", x,a,b);
+
+
+     // x<=not(not (a and b));
+	a = 1;
+	b = 0;
+	x = !(!(a && b));
+    printf("\n %d<=not(not %d and %d))", x,a,b);
+		
+        
+     // x<=not(not (a and b));    
+	a = 1;
+	b = 1;
+	x = !(!(a && b));
+    printf("\n %d<=not(not %d and %d))", x,a,b);
+	
+	return 0;
+}
+
+~~~
 
 
 
