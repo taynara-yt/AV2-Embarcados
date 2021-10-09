@@ -73,9 +73,9 @@ fn main(){
 **Questão 4**-
 Com base na Figura acima explique o processo de implementação Hardware/Software 
 ~~~txt
-A figura representa a forma para o processo de implementação Hardware/Software, onde o código é implementado no microprocessador, e este possui unidades de hardware que são circuitos específicos de uma placa.
+A figura representa a forma para o processo de implementação Hardware/Software, onde o código é
+implementado no microprocessador, e este possui unidades de hardware que são circuitos específicos de uma placa.
 
-}
 ~~~
 
 
