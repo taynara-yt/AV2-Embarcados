@@ -31,7 +31,7 @@ begin
  x <= not (not (a and b));  
 end questao;
 
-}
+
 ~~~
 
 **Questão 2** -
